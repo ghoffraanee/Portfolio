@@ -28,11 +28,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Accueil",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projets",
   },
   {
     id: "contact",
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeuse full stack",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Analyste de données",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Designer UX/UI",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Créatrice de contenu",
     icon: creator,
   },
 ];
@@ -73,7 +73,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Angular",
     icon: typescript,
   },
   {
@@ -81,7 +81,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Php",
     icon: redux,
   },
   {
@@ -97,11 +97,11 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "MySql",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "PowerBi",
     icon: git,
   },
   {
@@ -109,64 +109,51 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Java",
+    icon: docker,
+  },
+   {
+    name: "Symfony",
+    icon: docker,
+  },
+   {
+    name: "Python",
+    icon: docker,
+  },
+   {
+    name: "Android Studio",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Stage de perfectionnement",
+    company_name: "Naxxum Group",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Janvier 2025 - Février 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "	Contribution à la plateforme Zupdeco (projet éducatif en marque blanche)",
+      "	Création du module Club (CRUD complet : backend avec Node.js et frontend React/Ant Design).",
+      "	Utilisation des outils Postman, MongoDB Compass.",
+      
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Stage d’initiation                                                                 ",
+    company_name: "L-Mobile",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Janvier 2024 - Février 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Développement d'un site web dynamique G-RideRentals, une plateforme de location de voitures en ligne avec Next.js.",
+      "Conception de l'interface utilisateur et intégration des fonctionnalités dynamiques.",
+      
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ 
+ 
 ];
 
 const testimonials = [
@@ -198,67 +185,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "G-RideRentals",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Plateforme web permettant aux utilisateurs de rechercher, réserver et gérer des locations de voitures auprès de différents prestataires, offrant une solution pratique et efficace pour leurs besoins en transport.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ghoffraanee/G-RideRentals",
   },
   {
-    name: "Job IT",
+    name: "ZupDeCo",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ZupDeCo est une plateforme éducative offrant des services gratuits pour les enfants malades.j’ai participé à ce projet en développant le module Club, un CRUD complet permettant aux administrateurs de créer, gérer et organiser les clubs, et offrant aux enfants la possibilité d’y participer facilement",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ghoffraanee/ZupDeCo-backend",
   },
   {
-    name: "Trip Guide",
+    name: "Cars List",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ajouter, lister, modifier et supprimer des voitures avec Angular",
     tags: [
       {
-        name: "nextjs",
+        name: "Angular",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+  
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ghoffraanee/CarsList",
   },
 ];
 

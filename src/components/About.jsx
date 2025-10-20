@@ -40,18 +40,18 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Profil.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Je suis une étudiante en Technologies de l’Informatique à l’ISET de Nabeul, 
+        avec une expérience pratique en développement Full-Stack, gestion de bases de données,
+        design multimédia et analyse de données. Compétente en React, Node.js, Angular, Php, MySQL, 
+        Python.. Je me concentre sur la création d’applications évolutives et la résolution 
+         de problèmes techniques concrets, alliant rigueur technique et créativité.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
